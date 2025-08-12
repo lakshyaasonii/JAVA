@@ -1,11 +1,11 @@
-import java.util.*;
+
 public class java{
-    public static void main(String args[]){
-        //Printing square pattern using nested loop
-        for(int i=0;i<=4;i++){
-            for(int j=0;j<=4;j++){
-                System.out.println("*" + "");
-            }
-        }
-    }
+    public static void sum(int a, int b){
+        System.out.println("sum of " + a + " and " + b + " is " + (a+b));
+        return;
+}
+
+ public static void main(String args[]){
+    sum(4,5);
+ }
 }
