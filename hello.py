@@ -1,0 +1,1 @@
+print("Ganpatti bappa morya")
