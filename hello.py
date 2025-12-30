@@ -1,1 +1,0 @@
-print("Ganpatti bappa morya")
