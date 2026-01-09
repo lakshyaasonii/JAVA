@@ -63,6 +63,23 @@ class Matrix{
         }
         System.out.println("Sum of all elements of the matrix" + sum);
     }
+    void transpose(){
+        int transpose[][] = new int[n][m];
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                transpose[i][j] = matrix[j][i];
+            }
+            System.out.println();
+        }
+        //printing of transpose
+        System.out.println("Transpose of the matrix is: ");
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                System.out.print(transpose[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 }
     
 public class Test {
@@ -73,5 +90,6 @@ public class Test {
         m1.trace();
         m1.border();
         m1.sum();
+        m1.transpose();
     }
 }
