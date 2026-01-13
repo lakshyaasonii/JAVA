@@ -1,0 +1,20 @@
+public class Reverse {
+    public static void reverse(int arr[]){
+        int temp;
+        for(int i=0; i<arr.length/2; i++){
+            temp = arr[i];
+            arr[i] = arr[(arr.length - 1) - i];
+            arr[(arr.length - 1) - i] = temp;
+        }
+    }
+    public static void print(int arr[]){
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
+    }
+    public static void main(String args[]){
+        int array[] = {2,4,6,8,10};
+        reverse(array);
+        print(array);
+    }
+}
