@@ -1,4 +1,5 @@
 public class Pattern11{
+    //character triangle
     public static void main(String args[]){
         for(int i=1; i<=5;i++){
             char ch = 'A';

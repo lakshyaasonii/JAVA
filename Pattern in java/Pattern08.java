@@ -1,4 +1,5 @@
 public class Pattern08 {
+    //number triangle
     public static void main(String args[]){
         int value = 1;
         for(int i=1; i<=4; i++){
